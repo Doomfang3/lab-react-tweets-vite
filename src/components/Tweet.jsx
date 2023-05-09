@@ -12,7 +12,7 @@ function Tweet({tweet}) {
       <div className="body">
         <div className="top">
             <User userData={tweet.user} />
-          <Timestamp time={tweet.Timestamp} />
+          <Timestamp time={tweet.timestamp} />
         </div>
 
 
